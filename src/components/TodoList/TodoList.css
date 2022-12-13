@@ -1,0 +1,42 @@
+section {
+    width: 40%;
+    margin: 6rem auto;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.5rem;
+}
+
+h1 {
+    width: 100%;
+    font-size: 3rem;
+}
+
+li {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 0.7rem 0.7rem 0.7rem 0;
+}
+
+li img {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-inline: 1rem;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+}
+
+.show {
+    display: block;
+}
